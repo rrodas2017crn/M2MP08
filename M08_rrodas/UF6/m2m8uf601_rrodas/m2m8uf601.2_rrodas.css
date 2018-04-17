@@ -1,0 +1,67 @@
+@media screen and (min-width:481px){
+
+body{
+  background-color: blue;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  color: white;
+  text-align: center;
+}
+#cap{
+  width:;
+  height: 20%;
+  background-color: red;
+  color: white;
+}
+.capçalera{
+  width: 17%;
+  height: 50px;
+  color: white;
+  float: left;
+  margin: 5px;
+  border-color: white;
+  text-align: center;
+  border: solid 2px;
+  border-color: white;
+}
+
+#cos{
+  margin: 0 ;
+  padding: 0;
+  width: 57%;
+  float: left;
+}
+.cuerpo{
+  height: 80px;
+  background-color: green;
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#menu{
+
+  margin: 0 ;
+  padding: 0;
+  width: 37%;
+  float: left;
+}
+.contingut{
+  height: 80px;
+  background-color: pink;
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#peu{
+  height: 150px;
+  background-color: grey;
+  clear: left;
+}
+
+
+}

@@ -1,0 +1,73 @@
+@media screen and (max-width:480px){
+
+body{
+  background-color: red;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+#cap{
+  width: 100%;
+  height: 100px;
+  background-color: red;
+  color: white;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#cap:hover{
+  height: 410px;
+}
+.capçalera{
+  width: 97%;
+  height: 50px;
+  color: white;
+  float: left;
+  padding-left: 2%;
+  margin-bottom: 8px;
+  border-color: white;
+  text-align: center;
+  border: solid 2px;
+  border-color: white;
+}
+
+#cos{
+  margin-top: 100px;
+  background-color: white;
+  min-width: 100%;
+}
+.cuerpo{
+  background-color: purple;
+  height: 90px;
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#menu{
+  clear: left;
+  padding: 0;
+  margin: 0;
+  min-width: 100%;
+}
+.contingut{
+  height: 80px;
+  background-color: magenta;
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#peu{
+  height: 150px;
+  background-color: grey;
+}
+
+
+}
