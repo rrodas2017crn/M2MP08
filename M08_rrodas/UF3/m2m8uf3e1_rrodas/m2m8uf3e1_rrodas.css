@@ -1,0 +1,69 @@
+body{
+  font-family: "Times",serif;
+}
+#tot{
+  margin-top: 60px;
+  margin-left: 25%;
+  width: 920px;
+  height: 1430px;
+  background-color: #999;;
+}
+#capçalera{
+  width: 75%;
+  height: 300px;
+  background-color: #CC9;
+  float: left;
+  text-align: center;
+}
+#animacio{
+  float: left;
+  width: 24%;
+  height: 300px;
+  background-color: #green;
+}
+#gif{
+  width: 230px;
+  height: 300px;
+  margin-top: 1px;
+}
+#contingut{
+  margin-top: -38px;
+
+}
+.caixa{
+  width: 220px;
+  height: 150px;
+  background-color: #CCC;
+  float: left;
+  text-align: center;
+  margin: 10px 4px 10px 4px;
+
+}
+.horitzontal{
+  width: 920px;
+  height: 150px;
+  float: left;
+  margin: 10px 5px 10px 5px;
+  margin-top: -5px;
+  color: black;
+}
+.foto{
+  margin-top: 80px;
+}
+h5{
+  margin-top: 3px;
+}
+img{
+  margin-top: -8px;
+}
+#peu{
+  height: 40px;
+  background-color: #CC9;
+  clear: both;
+  width: 920px;
+  margin-left: 25%;
+  margin-top: -21px;
+  padding-left: 10px;
+  padding-top: 1px;
+  font-size: 13px;
+}
