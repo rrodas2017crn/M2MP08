@@ -1,0 +1,147 @@
+body{
+
+}
+
+h1{
+  font-family: Helvetica;
+  top:-600px;
+  left: -5%;
+  text-align: center;
+  animation-name: lletres;
+  animation-duration: 5s;
+  -webkit-animation-name: lletres;
+  -webkit-animation-duration: 5s;
+}
+@keyframes lletres{
+  10%{top: 600px; transform: scale(2.1);}
+  100%{top: -300px; color: red;}
+}
+@-webkit-keyframes lletres{
+  10%{top: 600px; transform: scale(2.1);}
+  100%{top: -300px; color: red;}
+}
+
+#cielo{
+  margin: 0 auto;
+  width: 20%;
+  height: 600px;
+  background-color: #3A9DE7;
+  overflow: hidden;
+  animation-name: cel;
+  animation-duration: 5s;
+  -webkit-animation-name: cel;
+  -webkit-animation-duration: 5s;
+}
+@keyframes cel{
+  0%{top: 0px; transform: scale(1.1);}
+  0%{top: 0px; background-color: #2F546E;}
+}
+@-webkit-keyframes cel{
+  0%{top: 0px; transform: scale(1.1);}
+  0%{top:0px; background-color: #2F546E;}
+}
+#green{
+  margin: 0 auto;
+  width: 20%;
+  height: 350px;
+  background-color: #2EFE64;
+  animation-name: verde;
+  animation-duration: 5s;
+  -webkit-animation-name: verde;
+  -webkit-animation-duration: 5s;
+}
+@keyframes verde{
+  0%{top: 0px; transform: scale(1.1);}
+  0%{top: 0px; background-color: black;}
+}
+@-webkit-keyframes verde{
+  0%{top: 0px; transform: scale(1.1);}
+  0%{top:0px; background-color: black;}
+}
+#bus{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: red;
+  margin: 0 auto;
+  position: relative;
+  top: -115px;
+  z-index: 2;
+  animation-name: vra;
+  animation-duration: 5s;
+  -webkit-animation-name: vra;
+  -webkit-animation-duration: 5s;
+}
+@keyframes vra{
+  10%{top: -115px; transform: scale(1.1);}
+  100%{top: 300px; background-color: yellow;}
+}
+@-webkit-keyframes vra{
+  10%{top: -115px; transform: scale(1.1);}
+  100%{top: 300px; background-color: yellow;}
+}
+#ventana{
+  width: 80px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #A1EDE3;
+  margin: 0 auto;
+}
+.faro{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: yellow;
+  float: left;
+  margin: 5px 15px;
+  animation-name: farol;
+  animation-duration: 5s;
+  -webkit-animation-name: farol;
+  -webkit-animation-duration: 5s;
+}
+@keyframes farol{
+  10%{top: -115px; transform: scale(1.1);}
+  100%{top: 300px; background-color: red;}
+}
+@-webkit-keyframes farol{
+  10%{top: -115px; transform: scale(1.1);}
+  100%{top: 300px; background-color: red;}
+}
+.rueda{
+  width: 20px;
+  height: 25px;
+  border-radius: 0 0 10px 10px;
+  background-color: black;
+  float: left;
+  margin: 10px 15px;
+}
+
+#sol{
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  border-radius: 100px;
+  margin: 0 auto;
+  position: relative;
+  top:500px;
+  animation-name: surt;
+  animation-duration: 5s;
+  -webkit-animation-name: surt;
+  -webkit-animation-duration: 5s;
+}
+@keyframes surt{
+  0%{top: 500px; transform: scale(0.5);}
+  100%{top: 100px; background-color: #ABC5D8;}
+}
+@-webkit-keyframes surt{
+  0%{top: 500px; transform: scale(0.5);}
+  100%{top: 100px; background-color: #ABC5D8;}
+}
+#camino{
+  width: 180px;
+  height: 350px;
+  background-color: #3B240B;
+  margin: 0 auto;
+  position: relative;
+  top: -100px;
+}
