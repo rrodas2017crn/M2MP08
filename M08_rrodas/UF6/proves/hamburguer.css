@@ -1,0 +1,53 @@
+body{
+  background-color: ;
+  margin: 0;
+  padding: 0;
+}
+#nav{
+  height: 40px;
+  background-color: red;
+}
+#burguer{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 5px;
+  left: 5px;
+}
+.checkbox{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: ;
+  left: 10px;
+  z-index: 1;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.checkbox:checked ~ #menu{
+  left: 0;
+  top: 40px;
+  position: fixed;
+  transition: 0.8s;
+}
+#burguer li{
+  list-style-type: none;
+  width: 30px;
+  height: 5px;
+  margin: 4px;
+  background-color: #FFF;
+}
+#menu{
+  list-style-type: none;
+  background-color: red;
+  width: 150px;
+  height: 230px;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: ;
+  top: -100%;
+  transition: 2s;
+}
