@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <style>
+    body{
+      background-color:#E547BB;
+      margin: 0;
+      padding: 0;
+    }
+    #contenidor{
+      width: 400px;
+      background-color: #519092;
+
+    }
+    div{
+      background-color: #6AAF6E;
+      margin: 10px;
+      padding: 10px;
+    }
+    label{
+      display: block;
+    }
+    .formateig{
+      height: 30px;
+      width: 300px;
+      background-color: #6AAF6E;
+      color: #000000;
+      border: solid 1px white;
+      font-size: 25px;
+      border-radius: 10px;
+    }
+    </style>
+
+  </head>
+  <body>
+    <div id="contenidor">
+      <div>
+      <label>Nom</label>
+      <input type="text" id="nom" class="formateig">
+    </div>
+    <div>
+    <label>1r Cognom</label>
+    <input type="text" id="Cognom1" class="formateig">
+  </div>
+  <div>
+    <label>2n Cognom</label>
+    <input type="text" id="Cognom2" class="formateig">
+  </div>
+  <div>
+    <label>Document d'Identitat</label>
+    <input type="number" id="dni" class="formateig">
+  </div>
+  <div>
+    <label>Password</label>
+    <input type="password" id="pass" class="formateig">
+  </div>
+  <div>
+    <label>Data de Naixement</label>
+    <input type="date" id="naixement" class="formateig">
+  </div>
+  <div>
+    <label>E-mail</label>
+    <input type="email" id="email" class="formateig">
+  </div>
+  <div>
+    <label>Telèfon</label>
+    <input type="tel" id="phone" class="formateig">
+  </div>
+  <div>
+    <label>Cerca</label>
+    <input type="search" id="search" class="formateig">
+  </div>
+  <div>
+    <label>Població de procedència</label>
+    <input list="poblacio" class="formateig">
+    <datalist id="poblacio" class="formateig">
+        <option value="Cornellà" id="poblacio" class="formateig">
+        <option value="Hospitalet" id="poblacio" class="formateig">
+        <option value="Sant Boi" id="poblacio" class="formateig">
+        <option value="Sant Joan Despí" id="poblacio" class="formateig">
+        <option value="Esplugues" id="poblacio" class="formateig">
+        <option value="Mongòlia" id="poblacio" class="formateig">
+    </datalist>
+  </div>
+  <div>
+  <label>Estudis</label>
+  <input type="checkbox" name="estudis" value="GM" class="formateig">Grau Mitjà
+  <input type="checkbox" name="estudis" value="GP" class="formateig">Grau Superior
+  <input type="checkbox" name="estudis" value="UNI" class="formateig">Universitat
+  <input type="checkbox" name="estudis" value="MST" class="formateig">Master
+  </div>
+
+  <div>
+  <label>Sexe</label>
+  <input type="radio" name="sexe" value="home" class="formateig">Home
+  <input type="radio" name="sexe" value="dona" class="formateig">Dona
+  </div>
+
+  <div>
+  <label>Comentaris</label>
+  <textarea cols="30" rows="12" id="comentaris" class="formateig">
+  </textarea>
+  </div>
+
+  <div>
+  <label>Hora</label>
+  <input type="time" id="hora" class="formateig">
+  </div>
+
+  <div>
+  <label>Instagram</label>
+  <input type="url" id="url" class="formateig">
+  </div>
+
+  <div>
+  <input type="submit" class="formateig">
+</input>
+  </div>
+</div>
+</div>
+  </body>
+</html>
