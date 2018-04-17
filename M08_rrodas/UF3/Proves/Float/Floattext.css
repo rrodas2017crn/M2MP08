@@ -1,0 +1,33 @@
+body{
+
+}
+p{
+
+}
+img{
+  width: 400px;
+  height: auto;
+}
+h1{
+  text-align: center;
+  font-size: 100px;
+}
+#imatge1{
+  float: left;
+}
+#imatge2{
+  float: right;
+}
+#primer{
+  float: right;
+}
+#segon{
+  float: right;
+  clear: left:
+}
+#tercer{
+  float: left;
+}
+#quart{
+  float: ;
+}
