@@ -5,19 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link href="responsive.1.css" rel="stlesheet" type="text/css"/>
-  <link href="responsive.2.css" rel="stlesheet" type="text/css"/>
-  <link href="responsive.3.css" rel="stlesheet" type="text/css"/>
-  <link href="responsive.4.css" rel="stlesheet" type="text/css"/>
+  <style>
+  @media (max-width:480px) and (orientation:portrait)
+       {
+         body{
+           background-color: grey;
+         }
+
+       }
+  @media (max-width:480px) and (orientation: landscape)
+            {
+              body{
+                background-color: green;
+              }
+
+            }
+  @media (max-width:768px) and (min-width:481px) and (orientation: portrait)
+                 {
+                   body{
+                     background-color: yellow;
+                   }
+
+                 }
+                 @media (max-width:768px) and (min-width:481px) and (orientation:landscape)
+                                {
+                                  body{
+                                    background-color: black;
+                                  }
+
+                                }
+                                @media (min-width:769px) and (orientation: portrait)
+                                               {
+                                                 body{
+                                                   background-color: red;
+                                                 }
+
+                                               }
+                                               @media (min-width:769px) and (orientation: landscape)
+                                                              {
+                                                                body{
+                                                                  background-color: purple;
+                                                                }
+
+                                                              }
+  </style>
 </head>
 <body>
-<div id="primer">
-</div>
-<div id="segon">
-</div>
-<div id="tercer">
-</div>
-<div id="quart">
-</div>
 </body>
 </html>
